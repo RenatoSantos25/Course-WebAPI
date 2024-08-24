@@ -1,0 +1,67 @@
+# Sistema de arquivos
+.DS_Store
+Thumbs.db
+
+# Dependências do Node.js
+node_modules/
+
+# Arquivos de log
+*.log
+
+# Arquivos de configuração de IDE
+.vscode/
+.idea/
+
+# Arquivos do Visual Studio
+.vs/
+*.csproj.user
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.suo
+*.user
+*.userosscache
+*.suo
+*.dbmdl
+*.bak
+
+# Arquivos gerados pelo build
+dist/
+build/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Diretórios de cache
+.cache/
+*.tmp
+
+# Arquivos específicos do sistema
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos de sistema
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.sql
+*.sqlite
+
+# Arquivos de configuração de ambiente Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Arquivos específicos de Java
+*.class
+*.jar
+*.war
+*.ear

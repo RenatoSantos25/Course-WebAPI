@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z4rpz8Ny/ag=",
+  "dgSpecHash": "ptPAm+0hsyM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aluno\\Documents\\ReserveiAPI\\ReserveiAPI.csproj",
+  "projectFilePath": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\ReserveiAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aluno\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

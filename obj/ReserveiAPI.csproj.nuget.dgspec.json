@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno\\Documents\\ReserveiAPI\\ReserveiAPI.csproj": {}
+    "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\ReserveiAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno\\Documents\\ReserveiAPI\\ReserveiAPI.csproj": {
+    "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\ReserveiAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno\\Documents\\ReserveiAPI\\ReserveiAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\ReserveiAPI.csproj",
         "projectName": "ReserveiAPI",
-        "projectPath": "C:\\Users\\Aluno\\Documents\\ReserveiAPI\\ReserveiAPI.csproj",
+        "projectPath": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\ReserveiAPI.csproj",
         "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno\\Documents\\ReserveiAPI\\obj\\",
+        "outputPath": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

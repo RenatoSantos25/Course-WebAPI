@@ -7,10 +7,10 @@
             return string.Equals(str1.RemoveDiacritics(), str2.RemoveDiacritics(), StringComparison.OrdinalIgnoreCase);
 
         }
-        public static int CheckValidPhone(string phone)
+        public static bool CheckValidPhone(string phone)
         {
             int phoneLength = OperatorUtilitie.ExtractNumbers(phone).Length;
-            return phoneLength > 9 ? phoneLength < 12;
+            return phoneLength > 9 && phoneLength < 12;
 
         }
         public static int CheckValidEmail(string email) {

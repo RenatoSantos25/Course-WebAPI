@@ -3,20 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\renato\\documents\\fatec\\2osemestre\\course-webapi\\repositories\\entities\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:repositories\\entities\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\renato\\documents\\fatec\\2osemestre\\course-webapi\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\renato\\documents\\fatec\\2osemestre\\course-webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\renato\\documents\\fatec\\2osemestre\\course-webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\renato\\documents\\fatec\\2osemestre\\course-webapi\\objects\\contracts\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:objects\\contracts\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\renato\\documents\\fatec\\2osemestre\\course-webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\renato\\documents\\fatec\\2osemestre\\course-webapi\\services\\server\\dependeciesinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:services\\server\\dependeciesinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\renato\\documents\\fatec\\2osemestre\\course-webapi\\objects\\contracts\\tokensignatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:objects\\contracts\\tokensignatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\renato\\documents\\fatec\\2osemestre\\course-webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\renato\\documents\\fatec\\2osemestre\\course-webapi\\services\\entities\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:services\\entities\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\renato\\documents\\fatec\\2osemestre\\course-webapi\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\renato\\documents\\fatec\\2osemestre\\course-webapi\\objects\\contracts\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:objects\\contracts\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\renato\\documents\\fatec\\2osemestre\\course-webapi\\services\\server\\dependeciesinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:services\\server\\dependeciesinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\renato\\documents\\fatec\\2osemestre\\course-webapi\\objects\\utilities\\validatorutilitie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +66,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAACAAAA",
+              "DocumentIndex": 4,
+              "Title": "Token.cs",
+              "DocumentMoniker": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Objects\\Contracts\\Token.cs",
+              "RelativeDocumentMoniker": "Objects\\Contracts\\Token.cs",
+              "ToolTip": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Objects\\Contracts\\Token.cs",
+              "RelativeToolTip": "Objects\\Contracts\\Token.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAADwv18AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T19:37:59.808Z",
+              "WhenOpened": "2024-08-30T20:22:48.113Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAALAAAAAAAAAAAAAiwLkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T16:38:35.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TokenSignatures.cs",
+              "DocumentMoniker": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Objects\\Contracts\\TokenSignatures.cs",
+              "RelativeDocumentMoniker": "Objects\\Contracts\\TokenSignatures.cs",
+              "ToolTip": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Objects\\Contracts\\TokenSignatures.cs",
+              "RelativeToolTip": "Objects\\Contracts\\TokenSignatures.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T20:18:39.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Services\\Entities\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\Entities\\UserService.cs",
+              "ToolTip": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Services\\Entities\\UserService.cs",
+              "RelativeToolTip": "Services\\Entities\\UserService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAQwCIAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T20:16:36.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Startup.cs",
               "RelativeDocumentMoniker": "Startup.cs",
@@ -64,7 +131,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Services\\interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Services\\interfaces\\IUserService.cs",
+              "RelativeToolTip": "Services\\interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T20:15:28.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Repositories\\Entities\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Entities\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Repositories\\Entities\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\Entities\\UserRepository.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwBsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T20:11:31.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T20:10:07.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Objects\\Contracts\\Login.cs",
+              "RelativeDocumentMoniker": "Objects\\Contracts\\Login.cs",
+              "ToolTip": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Objects\\Contracts\\Login.cs",
+              "RelativeToolTip": "Objects\\Contracts\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T20:07:22.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T19:37:59.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "DependeciesInjection.cs",
               "DocumentMoniker": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Services\\Server\\DependeciesInjection.cs",
               "RelativeDocumentMoniker": "Services\\Server\\DependeciesInjection.cs",
@@ -77,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "ValidatorUtilitie.cs",
               "DocumentMoniker": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Objects\\Utilities\\ValidatorUtilitie.cs",
               "RelativeDocumentMoniker": "Objects\\Utilities\\ValidatorUtilitie.cs",
@@ -86,19 +218,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T20:06:20.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Renato\\Documents\\FATEC\\2oSemestre\\Course-WebAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAO8AAAAAAAAAAAAuwKMAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T16:38:35.79Z",
               "EditorCaption": ""
             }
           ]

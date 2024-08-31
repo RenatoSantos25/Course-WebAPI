@@ -2,6 +2,7 @@
 using ReserveiAPI.Repositories.Interfaces;
 using ReserveiAPI.Objects.Models.Entities;
 using Microsoft.EntityFrameworkCore;
+using ReserveiAPI.Objects.Contracts;
 namespace ReserveiAPI.Repositories.Entities
 {
     public class UserRepository : IUserRepository
@@ -21,7 +22,15 @@ namespace ReserveiAPI.Repositories.Entities
         {
             return await _dbContext.Users.AsNoTracking().FirstOrDefaultAsync(u => u.Id == id);
         }
-        public async Task<UserModel> Create(UserModel userModel)
+		public async Task<UserModel> GetByEmail(string email)
+		{
+			return await _dbContext.Users.AsNoTracking().FirstOrDefaultAsync(u => u.EmailUser == email);
+		}
+		public async Task<UserModel> Login(Login login)
+		{
+			return await _dbContext.Users.AsNoTracking().FirstOrDefaultAsync(u => u.EmailUser == login.Email && u.PasswordUser == login.Passoword);
+		}
+		public async Task<UserModel> Create(UserModel userModel)
         {
             _dbContext.Users.Add(userModel);
             await _dbContext.SaveChangesAsync();

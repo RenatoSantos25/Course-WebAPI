@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using ReserveiAPI.Objects.Contracts;
 using ReserveiAPI.Objects.DTOs.Entities;
 using ReserveiAPI.Objects.Models.Entities;
 using ReserveiAPI.Repositories.Interfaces;
@@ -28,7 +29,19 @@ namespace ReserveiAPI.Services.Entities
             if (userModel is not null) userModel.PasswordUser = "";
             return _mapper.Map<UserDTOs>(userModel);
         }
-        public async Task Create(UserDTOs userDTO)
+		public async Task<UserDTOs> GetByEmail(string email)
+		{
+			var userModel = await _userRepository.GetByEmail(email);
+			if (userModel is not null) userModel.PasswordUser = "";
+			return _mapper.Map<UserDTOs>(userModel);
+		}
+		public async Task<UserDTOs> Login(Login login)
+		{
+			var userModel = await _userRepository.Login(login);
+			if (userModel is not null) userModel.PasswordUser = "";
+			return _mapper.Map<UserDTOs>(userModel);
+		}
+		public async Task Create(UserDTOs userDTO)
         {
             var userModel = _mapper.Map<UserModel>(userDTO);
             await _userRepository.Create(userModel);

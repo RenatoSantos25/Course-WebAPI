@@ -1,4 +1,5 @@
-﻿using ReserveiAPI.Objects.Models.Entities;
+﻿using ReserveiAPI.Objects.Contracts;
+using ReserveiAPI.Objects.Models.Entities;
 
 namespace ReserveiAPI.Repositories.Interfaces
 {
@@ -6,9 +7,12 @@ namespace ReserveiAPI.Repositories.Interfaces
     {
         Task<IEnumerable<UserModel>> GetAll();
         Task<UserModel> GetByID(int id);
-        Task<UserModel> Create(UserModel model);
+		Task<UserModel> GetByEmail(string email);
+		Task<UserModel> Login(Login login);
 
-        Task<UserModel> Update(UserModel model);
+		Task<UserModel> Create(UserModel model);
+		
+		Task<UserModel> Update(UserModel model);
         Task<UserModel> Delete(UserModel model);
 
     }

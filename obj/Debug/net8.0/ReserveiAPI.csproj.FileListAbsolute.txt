@@ -243,3 +243,5 @@ C:\Users\Renato\Documents\FATEC\2oSemestre\Course-WebAPI\obj\Debug\net8.0\refint
 C:\Users\Renato\Documents\FATEC\2oSemestre\Course-WebAPI\obj\Debug\net8.0\ReserveiAPI.pdb
 C:\Users\Renato\Documents\FATEC\2oSemestre\Course-WebAPI\obj\Debug\net8.0\ReserveiAPI.genruntimeconfig.cache
 C:\Users\Renato\Documents\FATEC\2oSemestre\Course-WebAPI\obj\Debug\net8.0\ref\ReserveiAPI.dll
+C:\Users\Renato\Documents\FATEC\2oSemestre\Course-WebAPI\bin\Debug\net8.0\jose-jwt.dll
+C:\Users\Renato\Documents\FATEC\2oSemestre\Course-WebAPI\bin\Debug\net8.0\Newtonsoft.Json.dll

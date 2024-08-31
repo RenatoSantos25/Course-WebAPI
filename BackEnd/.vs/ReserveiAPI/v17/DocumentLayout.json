@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\aluno\\documents\\course-webapi\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\aluno\\documents\\course-webapi\\backend\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\aluno\\documents\\course-webapi\\backend\\services\\server\\dependeciesinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:services\\server\\dependeciesinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\aluno\\documents\\course-webapi\\backend\\objects\\contracts\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:objects\\contracts\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\aluno\\documents\\course-webapi\\backend\\objects\\contracts\\tokensignatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:objects\\contracts\\tokensignatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\aluno\\documents\\course-webapi\\backend\\services\\entities\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:services\\entities\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DependeciesInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Services\\Server\\DependeciesInjection.cs",
+              "RelativeDocumentMoniker": "Services\\Server\\DependeciesInjection.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Services\\Server\\DependeciesInjection.cs",
+              "RelativeToolTip": "Services\\Server\\DependeciesInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T11:41:06.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Token.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Objects\\Contracts\\Token.cs",
+              "RelativeDocumentMoniker": "Objects\\Contracts\\Token.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Objects\\Contracts\\Token.cs",
+              "RelativeToolTip": "Objects\\Contracts\\Token.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAADwv18AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T20:22:48.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAEgBAAAAAAAAAAAkwFgBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T16:38:35.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TokenSignatures.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Objects\\Contracts\\TokenSignatures.cs",
+              "RelativeDocumentMoniker": "Objects\\Contracts\\TokenSignatures.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Objects\\Contracts\\TokenSignatures.cs",
+              "RelativeToolTip": "Objects\\Contracts\\TokenSignatures.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T20:18:39.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Services\\Entities\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\Entities\\UserService.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Services\\Entities\\UserService.cs",
+              "RelativeToolTip": "Services\\Entities\\UserService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAQwCIAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T20:16:36.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAswDwAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T19:18:24.879Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -28,7 +28,7 @@ namespace ReserveiAPI.Repositories.Entities
 		}
 		public async Task<UserModel> Login(Login login)
 		{
-			return await _dbContext.Users.AsNoTracking().FirstOrDefaultAsync(u => u.EmailUser == login.Email && u.PasswordUser == login.Passoword);
+			return await _dbContext.Users.AsNoTracking().FirstOrDefaultAsync(u => u.EmailUser == login.Email && u.PasswordUser == login.Password);
 		}
 		public async Task<UserModel> Create(UserModel userModel)
         {

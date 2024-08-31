@@ -47,14 +47,14 @@ namespace ReserveiAPI.Services.Entities
             await _userRepository.Create(userModel);
 
             userDTO.Id = userModel.Id;
-            userDTO.PassowordUser = "";
+            userDTO.PasswordUser = "";
         }
         public async Task Update(UserDTOs userDTO)
         {
             var userModel = _mapper.Map<UserModel>(userDTO);
             await _userRepository.Update(userModel);
 
-            userDTO.PassowordUser = "";
+            userDTO.PasswordUser = "";
         }
         public async Task Delete(UserDTOs userDTO)
         {
@@ -62,7 +62,7 @@ namespace ReserveiAPI.Services.Entities
             await _userRepository.Delete(userModel);
 
 
-            userDTO.PassowordUser = "";
+            userDTO.PasswordUser = "";
         }
     }
 }

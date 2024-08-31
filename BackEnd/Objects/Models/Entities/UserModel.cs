@@ -10,7 +10,7 @@ namespace ReserveiAPI.Objects.Models.Entities
 
 
         [Column("imageprofile")]
-        public string ImageproFile { get; set; }
+        public string ImageProfile { get; set; }
 
 
         [Column("nameuser")]
@@ -21,7 +21,7 @@ namespace ReserveiAPI.Objects.Models.Entities
         public string EmailUser { get; set; }
 
 
-        [Column("passoworduser")]
+        [Column("passworduser")]
         public string PasswordUser { get; set; }
 
 

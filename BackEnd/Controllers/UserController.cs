@@ -7,9 +7,10 @@ using System.Dynamic;
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using static Jose.Compact;
 namespace ReserveiAPI.Controllers
 {
-    [Route("api/[controler]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class UserController : Controller
     {
@@ -77,9 +78,8 @@ namespace ReserveiAPI.Controllers
         {
             if (userDTO is null)
             {
-
                 _response.SetInvalid();
-                _response.Message = "Dado(s) inválido(s)";
+                _response.Message = "Dado(s) inválido(s)!";
                 _response.Data = userDTO;
                 return BadRequest(_response);
             }
@@ -95,7 +95,7 @@ namespace ReserveiAPI.Controllers
                 if (hasErrors)
                 {
                     _response.SetConflict();
-                    _response.Message = "Dado(s) com conflito";
+                    _response.Message = "Dado(s) com conflito!";
                     _response.Data = errors;
                     return BadRequest(_response);
                 }
@@ -103,19 +103,29 @@ namespace ReserveiAPI.Controllers
                 var usersDTO = await _userService.GetAll();
                 CheckDuplicates(usersDTO, userDTO, ref errors, ref hasErrors);
 
-                if (!hasErrors)
+                if (hasErrors)
                 {
                     _response.SetConflict();
-                    _response.Message = "Dado(s) com conflitos";
+                    _response.Message = "Dado(s) com conflito!";
                     _response.Data = errors;
                     return BadRequest(_response);
                 }
 
-                userDTO.PassowordUser = userDTO.PassowordUser.HashPassword();
+                // Criptografa a senha
+                var hashedPassword = OperatorUtilitie.HashPassword(userDTO.PasswordUser);
+
+                // Remove o primeiro caractere da senha criptografada
+                if (hashedPassword.Length > 0)
+                {
+                    hashedPassword = hashedPassword.Substring(0);
+                }
+
+                userDTO.PasswordUser = hashedPassword;
+
                 await _userService.Create(userDTO);
 
                 _response.SetSucces();
-                _response.Message = "Usuário " + userDTO.NameUSer + " cadastrado com sucesso. ";
+                _response.Message = "Usuário " + userDTO.NameUSer + " cadastrado com sucesso.";
                 _response.Data = userDTO;
                 return Ok(_response);
             }
@@ -127,7 +137,7 @@ namespace ReserveiAPI.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, _response);
             }
         }
-		[HttpPost("Login")]
+        [HttpPost("Login")]
 		public async Task<ActionResult> Login([FromBody] Login login)
 		{
 			if (login is null)
@@ -142,7 +152,7 @@ namespace ReserveiAPI.Controllers
 
 			try
 			{
-				login.Passoword = login.Passoword.HashPassword();
+				login.Password = login.Password.HashPassword();
                 var userDTO = await _userService.Login(login);
 
 				if (userDTO is null)
@@ -270,17 +280,13 @@ namespace ReserveiAPI.Controllers
                     return BadRequest(_response);
                 }
 
-                userDTO.PassowordUser = existingUserDTO.PassowordUser;
+                userDTO.PasswordUser = existingUserDTO.PasswordUser;
                 await _userService.Update(userDTO);
 
                 _response.SetSucces();
                 _response.Message = "Usuário " + userDTO.NameUSer + " alterado com sucesso. ";
                 _response.Data = userDTO;
                 return Ok(_response);
-
-
-
-
 
             }
             catch (Exception ex)

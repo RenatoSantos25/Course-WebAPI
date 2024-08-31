@@ -7,7 +7,7 @@ namespace ReserveiAPI.Objects.Contracts
 		[Required(ErrorMessage = "O e-mail é requirido!")]
 		public string Email { get; set; }
 		[Required(ErrorMessage = "A senha é requirido!")]
-		public string Passoword { get; set; }
+		public string Password { get; set; }
 
 	}
 }

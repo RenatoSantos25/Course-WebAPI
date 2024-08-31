@@ -6,7 +6,7 @@ namespace ReserveiAPI.Objects.DTOs.Entities
     {
         public int Id { get; set; }
 
-        public string? ImgaeUser { get; set; }
+        public string? ImageProfile { get; set; }
 
         [Required(ErrorMessage = "O nome é requerido!")]
         [MaxLength(100)]
@@ -26,7 +26,7 @@ namespace ReserveiAPI.Objects.DTOs.Entities
         }
         [Required(ErrorMessage = "A senha é requerido !")]
         [MinLength(8)]
-        public string PassowordUser { get; set; }
+        public string PasswordUser { get; set; }
 
         [Required(ErrorMessage = "Telefone é requerido !")]
         [MaxLength(15)]

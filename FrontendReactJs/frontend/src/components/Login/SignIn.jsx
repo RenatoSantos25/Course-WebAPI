@@ -4,7 +4,7 @@ import axios from 'axios';
 
 import Cookies from 'js-cookie';
 
-import LogoLogin from "../assets/logoLogin.png"
+import LogoLogin from "../../assets/imageLogin.png"
 
 import { useNavigate } from 'react-router-dom';
 
@@ -13,13 +13,9 @@ import { Eye, EyeSlash } from "@phosphor-icons/react";
 const SignIn = ({ onSignUpClick }) => {
 
     const [email, setEmail] = useState('');
-
     const [password, setPassword] = useState('');
-
     const [error, setError] = useState('');
-
     const navigate = useNavigate();
-
     const [showPassword, setShowPassword] = useState(false); // Estado para controlar visibilidade da senha
 
     const handleSubmit = async (event) => {
@@ -101,7 +97,7 @@ const SignIn = ({ onSignUpClick }) => {
                 </button>
             </form>
             <div className='flex w-full justify-center pt-11'>
-            <img className= 'h-[60px] w-[139.35px]' src= {LogoLogin} alt="" />
+                <img className='h-[60px] w-[139.35px]' src={LogoLogin} alt="" />
             </div>
         </div>
 

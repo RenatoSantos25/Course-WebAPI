@@ -4,7 +4,7 @@ import axios from 'axios';
 
 import Cookies from 'js-cookie';
 
-import LogoLogin from "../../assets/imageLogin.png"
+import LogoLogin from "../../assets/logoLogin.png"
 
 import { useNavigate } from 'react-router-dom';
 

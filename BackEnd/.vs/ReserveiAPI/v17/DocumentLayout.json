@@ -39,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:services\\entities\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Migrations\\20240831133853_DbReservei.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240831133853_DbReservei.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\aluno\\documents\\course-webapi\\backend\\objects\\dtos\\entities\\userdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:objects\\dtos\\entities\\userdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -77,6 +73,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\aluno\\documents\\course-webapi\\backend\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|c:\\users\\aluno\\documents\\course-webapi\\backend\\migrations\\20240831133853_dbreservei.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0351349C-4810-44B1-80A3-09B4502929EB}|ReserveiAPI.csproj|solutionrelative:migrations\\20240831133853_dbreservei.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,8 +86,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 15,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -122,15 +126,15 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
@@ -142,8 +146,7 @@
               "RelativeToolTip": "Objects\\Utilities\\ValidatorUtilitie.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T13:44:26.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T13:44:26.808Z"
             },
             {
               "$type": "Document",
@@ -155,12 +158,11 @@
               "RelativeToolTip": "Objects\\Utilities\\OperatorUtilitie.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T13:44:25.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T13:44:25.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "AppDBContext.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Context\\AppDBContext.cs",
               "RelativeDocumentMoniker": "Context\\AppDBContext.cs",
@@ -168,8 +170,7 @@
               "RelativeToolTip": "Context\\AppDBContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T13:35:41.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T13:35:41.046Z"
             },
             {
               "$type": "Document",
@@ -186,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Repositories\\Entities\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Entities\\UserRepository.cs",
@@ -194,12 +195,11 @@
               "RelativeToolTip": "Repositories\\Entities\\UserRepository.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAvwBsAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T13:36:17.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T13:36:17.008Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Objects\\Contracts\\Login.cs",
               "RelativeDocumentMoniker": "Objects\\Contracts\\Login.cs",
@@ -207,8 +207,7 @@
               "RelativeToolTip": "Objects\\Contracts\\Login.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T13:27:14.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T13:27:14.157Z"
             },
             {
               "$type": "Document",
@@ -220,12 +219,11 @@
               "RelativeToolTip": "Context\\Builders\\UserBuilder.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T13:22:56.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T13:22:56.89Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "UserDTOs.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Objects\\DTOs\\Entities\\UserDTOs.cs",
               "RelativeDocumentMoniker": "Objects\\DTOs\\Entities\\UserDTOs.cs",
@@ -233,12 +231,11 @@
               "RelativeToolTip": "Objects\\DTOs\\Entities\\UserDTOs.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T13:22:12.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T13:22:12.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "UserModel.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Objects\\Models\\Entities\\UserModel.cs",
               "RelativeDocumentMoniker": "Objects\\Models\\Entities\\UserModel.cs",
@@ -246,12 +243,11 @@
               "RelativeToolTip": "Objects\\Models\\Entities\\UserModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T13:21:58.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T13:21:58.291Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "20240831131549_DbReservei.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Migrations\\20240831131549_DbReservei.cs",
               "RelativeDocumentMoniker": "Migrations\\20240831131549_DbReservei.cs",
@@ -271,8 +267,7 @@
               "RelativeToolTip": "Services\\Server\\DependeciesInjection.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T11:41:06.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T11:41:06.383Z"
             },
             {
               "$type": "Document",
@@ -284,8 +279,7 @@
               "RelativeToolTip": "Objects\\Contracts\\Token.cs",
               "ViewState": "AQIAAD8AAAAAAAAAAADwv18AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T20:22:48.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T20:22:48.113Z"
             },
             {
               "$type": "Document",
@@ -297,12 +291,11 @@
               "RelativeToolTip": "Objects\\Contracts\\TokenSignatures.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T20:18:39.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T20:18:39.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "20240831133853_DbReservei.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Migrations\\20240831133853_DbReservei.cs",
               "RelativeDocumentMoniker": "Migrations\\20240831133853_DbReservei.cs",
@@ -310,8 +303,7 @@
               "RelativeToolTip": "Migrations\\20240831133853_DbReservei.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T13:38:53.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T13:38:53.644Z"
             },
             {
               "$type": "Document",
@@ -323,12 +315,11 @@
               "RelativeToolTip": "Services\\interfaces\\IUserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T13:40:11.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T13:40:11.677Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -336,8 +327,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-31T13:16:18.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T13:16:18.122Z"
             },
             {
               "$type": "Document",
@@ -349,12 +339,11 @@
               "RelativeToolTip": "Services\\Entities\\UserService.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAmwCIAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T20:16:36.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T20:16:36.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Objects\\DTOs\\Mappings\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Objects\\DTOs\\Mappings\\MappingProfile.cs",
@@ -362,12 +351,11 @@
               "RelativeToolTip": "Objects\\DTOs\\Mappings\\MappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T13:36:40.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T13:36:40.877Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\Course-WebAPI\\BackEnd\\Startup.cs",
               "RelativeDocumentMoniker": "Startup.cs",

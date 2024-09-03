@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import logoLogin from "../../assets/imageLogin.png";
+import logoLogin from "../../assets/logoLogin.png";
 import { Eye, EyeSlash } from "@phosphor-icons/react";
 
 const SignUp = ({ onSignInClick }) => {

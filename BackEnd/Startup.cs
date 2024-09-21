@@ -70,7 +70,7 @@ namespace ReserveiAPI
 			app.UseHttpsRedirection();
 			app.UseStaticFiles();
 			app.UseRouting();
-			app.UseCors();
+			app.UseCors("MyPolicy");
 			app.UseEndpoints(endpoints =>
 			{
 				endpoints.MapControllers();

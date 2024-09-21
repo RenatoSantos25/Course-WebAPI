@@ -14,12 +14,12 @@ const SignUp = ({ onSignInClick }) => {
         event.preventDefault();
 
         try {
-            const response = await axios.post('https://localhost:7266/api/User/Create', {
-                imageUser: 'guigas',
+            const response = await axios.post('https://localhost:7245/api/User/Create', {
+                imageProfile: 'guigas',
                 nameUser: name,
                 emailUser: email,
                 passwordUser: password,
-                phoneUser: '(17)99999-9999',
+                phoneUser: '(17) 99999-9999',
             });
 
             if (response.status === 200) {

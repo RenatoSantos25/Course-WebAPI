@@ -24,12 +24,9 @@ const SignIn = ({ onSignUpClick }) => {
 
         try {
 
-            const response = await axios.post('https://localhost:7266/api/User/Login', {
-
+            const response = await axios.post('https://localhost:7245/api/User/Login', {
                 email,
-
                 password,
-
             });
 
             if (response.status === 200) {

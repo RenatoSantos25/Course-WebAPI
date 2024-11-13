@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReserveiAPI", "ReserveiAPI.csproj", "{0351349C-4810-44B1-80A3-09B4502929EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReserveiAPI.Tests", "..\ReserveiAPI.Tests\ReserveiAPI.Tests.csproj", "{BB036170-6BB0-4AAA-B276-EECDA1F00476}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0351349C-4810-44B1-80A3-09B4502929EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0351349C-4810-44B1-80A3-09B4502929EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0351349C-4810-44B1-80A3-09B4502929EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB036170-6BB0-4AAA-B276-EECDA1F00476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB036170-6BB0-4AAA-B276-EECDA1F00476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB036170-6BB0-4AAA-B276-EECDA1F00476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB036170-6BB0-4AAA-B276-EECDA1F00476}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

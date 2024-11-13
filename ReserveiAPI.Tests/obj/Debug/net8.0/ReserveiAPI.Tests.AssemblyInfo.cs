@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ReserveiAPI")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ReserveiAPI.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ab912919e07ad6059ec6e8273c3d1eee615c586")]
-[assembly: System.Reflection.AssemblyProductAttribute("ReserveiAPI")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ReserveiAPI")]
+[assembly: System.Reflection.AssemblyProductAttribute("ReserveiAPI.Tests")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ReserveiAPI.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
